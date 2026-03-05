@@ -28,7 +28,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    "**/*.mts",
+    "!app/login/page.tsx" // Exclude the missing file
   ],
   "exclude": ["node_modules"]
 }
