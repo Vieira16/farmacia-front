@@ -1,3 +1,5 @@
-export default function Button({children}){
+import React, { ReactNode } from 'react';
+
+export default function Button({ children }: { children: ReactNode }){
   return <button>{children}</button>
 }
